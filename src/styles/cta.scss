@@ -1,0 +1,35 @@
+.cta-section {
+  padding: 50px 0px;
+  margin-top: 10px;
+  background-color: #1F424B;
+
+  .cta-div {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+
+    p {
+      width: 85%;
+      margin: 0;
+      font-family: 'Roboto Slab', serif;
+      color: #A1A39F;
+      margin-right: 15px;
+    }
+
+    a {
+      width: 15%;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #4AA0D6;
+      margin: auto;
+      height: fit-content;
+      color: #F2F7F9;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      border-radius: 5px;
+      padding: 25px;
+    }
+  }
+}

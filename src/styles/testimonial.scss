@@ -1,0 +1,30 @@
+.testimonial {
+  color: #708090;
+  background: #F9F8F7;
+  padding: 25px 10px 40px;
+
+  p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-left: 40px;
+  }
+
+  span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 40px;
+  }
+
+  .image {
+    background-image: url('../img/glyphicons-547-quote.png');
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
